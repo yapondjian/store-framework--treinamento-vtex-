@@ -31,6 +31,7 @@
   "info-card#button-left": {
     "props": {
       "headline": "Shining chrome",
+      "callToActionMode": "link",
       "callToActionText": "Go to Collection",
       "callToActionUrl": "/sale/d",
       "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-cinza-min.png",
