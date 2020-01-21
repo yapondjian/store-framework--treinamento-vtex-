@@ -24,7 +24,7 @@
     "children": [
       "product-name",
       "product-identifier.product",
-      "flex-layout.row#price",
+      "flex-layout.row#qty",
       "product-price",
       "shipping-simulator",
       "buy-button"
@@ -40,7 +40,7 @@
       "showListPrice": true
     }
   },
-  "flex-layout.row#price": {
+  "flex-layout.row#qty": {
     "children": [
       "sku-selector",
       "product-quantity"
@@ -60,7 +60,7 @@
   },
   "sku-selector": {
     "props": {
-      "initialSelection": false,
+      "initialSelection": "complete",
       "showValueNameForImageVariation": true,
       "showVariationsErrorMessage": true
     }
