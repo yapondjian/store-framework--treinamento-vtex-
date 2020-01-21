@@ -4,14 +4,6 @@
       "flex-layout.row#main"
     ]
   },
-
-  "product-price": {
-    "props": {
-      "showSavings": false,
-      "showListPrice": false
-    }
-  },
-  
   "flex-layout.row#main": {
     "children": [
       "flex-layout.col#left",
@@ -34,7 +26,13 @@
     ],
     "props": {
       "verticalAlign": "middle",
-      "preventVerticalStretch": false
+      "preventVerticalStretch": true
+    }
+  },
+  "product-price": {
+    "props": {
+      "showSavings": true,
+      "showListPrice": true
     }
   }
 }
