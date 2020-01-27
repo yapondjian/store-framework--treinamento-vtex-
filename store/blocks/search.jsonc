@@ -48,7 +48,7 @@
       "filter-navigator.v3"
     ],
     "props":{
-      "maxWidth": "20%"
+      "width": "20%"
     }
   },
   "flex-layout.col#search": {
