@@ -6,8 +6,8 @@
         ],
         "props": {
             "context": {
-                "orderByField": "OrderByReleaseDateDESC",
                 "hideUnavailableItems": true,
+                "orderByField": "OrderByReleaseDateDESC",
                 "maxItemsPerPage": 8,
                 "queryField": "Blue Top Retro Camera",
                 "mapField": "ft"
