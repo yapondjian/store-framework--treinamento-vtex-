@@ -19,7 +19,7 @@
             "queryField": "Blue Top Retro Camera",
             "mapField": "ft",
             "facetsBehavior": "Dynamic",
-            "skusFilter": "ALL_AVAILABLE"
+            "skusFilter": "ALL"
         }
     }
 }
