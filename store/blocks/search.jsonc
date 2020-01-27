@@ -2,19 +2,7 @@
   "store.search": {
     "blocks": [
       "search-result-layout"
-    ],
-    "props": {
-      "context": {
-        "orderByField": "OrderByReleaseDateDESC",
-        "hideUnavailableItems": true,
-        "facetsBehavior": "Dynamic",
-        "maxItemsPerPage": 5,
-        "skuFilter": "FIRST_AVAILABLE"
-      },
-      "pagination": "show-more",
-      "showFacetQuantity": true,
-      "showProductsCount": false
-    }
+    ]
   },
   "search-result-layout": {
     "blocks": [
@@ -31,7 +19,19 @@
       "search-content",
       "filter-navigator.v3",
       "search-fetch-more"
-    ]
+    ],
+    "props": {
+      "context": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "facetsBehavior": "Dynamic",
+        "maxItemsPerPage": 5,
+        "skuFilter": "FIRST_AVAILABLE"
+      },
+      "pagination": "show-more",
+      "showFacetQuantity": true,
+      "showProductsCount": false
+    }
   }
   
 }
